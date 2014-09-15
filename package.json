@@ -1,0 +1,19 @@
+{
+  "name": "marionette-hardware",
+  "version": "0.0.1",
+  "author": "Evan Tseng <evanxd@mozilla.com>",
+  "description": "A node library that provides handler of hardware button through Marionette.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "marionette-js-runner": "~0.2.0",
+    "mozilla-download": "~0.2.1",
+    "mocha": "1.11.0"
+  },
+  "peerDependencies": {
+    "marionette-client": ">=1.1.6"
+  }
+}
